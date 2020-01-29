@@ -13,6 +13,6 @@ window.addEventListener("keydown", event => {
 	let x = Math.random() * canvas.width
 	let y = Math.random() * canvas.height
 	let width = Math.random() * canvas.width
-	let height = Math
+	let height = Math.random() * canvas.height
 	new Shape(x, y, 200, 100).draw()
 })
