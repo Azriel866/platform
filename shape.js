@@ -8,7 +8,6 @@ class Shape {
 	}
 	draw() {
 		CTX.fillStyle = "blue"
-		}
 		CTX.fillRect(this.x, this.y, this.width, this.height)
 	}
 }
