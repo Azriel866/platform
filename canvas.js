@@ -10,3 +10,5 @@ function ERASE() {
 CTX.fillStyle = "green"
 CTX.fillRect(0, 0, CANVAS.width, CANVAS.height)
 }
+
+let GRIDSIZE = CANVAS.height / 12
